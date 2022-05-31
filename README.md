@@ -19,7 +19,7 @@ This is an example HTML page for a cinema that uses bootstrap 4 for styling.
 
 Portfolio website-
 
-This is a website of my portfolio with links, images and videos. It was styled using CSS.
+This is a website of my portfolio with links, images and videos. It was styled using CSS. Here is the link: https://slinsdall.github.io/
 
 HTML Spacing Challenge-
 

@@ -1,0 +1,166 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+background-img {
+    filter: brightness(100%);
+    border-radius: 10px;
+    padding-top: 15px;
+    display: block;
+    background-repeat: no-repeat;
+   
+  }
+
+  footer {
+      text-align: center;
+      font-weight: bold;
+      float: bottom;
+      
+  }
+
+  table, th, td {
+    border: 5px dashed;
+    padding: 3px;
+  }
+
+  table th {
+      background-color: red;
+  }
+
+ .container {
+     position: absolute;
+     text-align: center;
+     color: rgb(209, 231, 47);
+ }
+
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav {
+    background-color: rgb(23, 216, 71);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: rgb(23, 216, 71);
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+    background-color: #0f0f0f;
+    color: white;
+  }
+ 
+
+  .column {
+    float: left;
+    width: 50%;
+    color: yellow;
+    height: 50%;
+  
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
+  p:hover {
+      background-color:rgb(232, 28, 106);
+  }
+
+  .image {
+    display: block;
+    width: 70%;
+    height: 30%;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ba0088;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(53, 181, 210);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  video {
+      width: 40%;
+      position: relative;
+      float: right;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vide:hover .overlay {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
+ 

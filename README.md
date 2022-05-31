@@ -5,9 +5,9 @@ Projects:
 
 * Academy Cinemas
 
-*Portfolio Website
+* Portfolio Website
 
-*HTML Spacing Challenge
+* HTML Spacing Challenge
 
 PDX Mountain Biking-
 
